@@ -21,9 +21,9 @@ function verificarIntento() {
         document.getElementById('reiniciar'). removeAttribute('disabled');
     }else {
         if(numeroDeUsuario > numeroSecreeto){
-            asignarTextoElemento('p','El número ingresado es Mayor');
+            asignarTextoElemento('p','El número Secreto es Menor');
         }else {
-            asignarTextoElemento('p','El número ingresado es Menor')
+            asignarTextoElemento('p','El número Secreto es Mayor')
         }
         numeriIntentos++;
         limpiarCaja();
